@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.head {position: relative;
+  text-align: center;
+  color: white;}
+
+.centered {position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);}
+
+@media only screen and (max-width: 600px) {
+  .font{
+    font-size: 17px;
+	  font-family:'alex-brush';
+  }
+}
